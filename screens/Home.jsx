@@ -21,7 +21,7 @@ const Home = () => {
       <TouchableOpacity style={styles.btnContainer} onPress={click_signup}>
         <Text style={styles.btnText}>SignUp</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.btnContLogin}>
+      <TouchableOpacity style={styles.btnContLogin} onPress={()=> navigation.navigate("login")}>
         <Text style={styles.btnlogin}>Login</Text>
       </TouchableOpacity>
       <View style={styles.iconContainer}>

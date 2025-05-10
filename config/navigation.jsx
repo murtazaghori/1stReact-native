@@ -12,7 +12,7 @@ export const NavigationReact  = ()=>{
             <Stack.Navigator >
                 <Stack.Screen name='Home' component={Home} options={{headerShown:false}} />
                 <Stack.Screen  name='Signup' component={Signup} options={{headerShown:false}} />
-                <Stack.Screen name='login' component={login} options={{headerShown:flase}}/>
+                <Stack.Screen name='login' component={login} options={{headerShown:false}}/>
                
             </Stack.Navigator>
         </NavigationContainer>
